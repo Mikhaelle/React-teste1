@@ -1,0 +1,14 @@
+.buttonDiv {
+    position: fixed;
+    width: 100%;
+    height: 64px;
+    text-align:center;
+}
+
+button {
+    border-radius: 12px;
+    font-size: 24px;
+    position:relative;
+    top: 50%;
+    transform: translateY(-50%);
+}

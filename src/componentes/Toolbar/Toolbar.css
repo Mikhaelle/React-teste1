@@ -1,0 +1,50 @@
+.toolbar {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    background-color: blueviolet;
+    height: 56px;
+    
+}
+
+.toolbar_navigation {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.toolbar_logo a{
+    color: aqua;
+    text-decoration:none;
+    font-size: 1.5rem;
+}
+
+.space{
+    flex:1;
+}
+.space2{
+    flex: 0.2;
+}
+
+.toolbar_navigation_itens ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.toolbar_navigation_itens li{
+    padding: 0 0.5rem;
+}
+
+.toolbar_navigation_itens a{
+    color: white;
+    text-decoration: none;
+}
+
+.toolbar_navigation_itens a:hover,
+.toolbar_navigation_itens a:active{
+    color: orange;
+}
