@@ -9,10 +9,9 @@ function App() {
   return (
     <div className="App">
     <Toolbar />
-     <main style={{marginTop: '64px'}}>
+      <div style={{marginTop: '64px'}}>
         <Button />
-        <Addsetence />
-     </main>
+      </div>
     </div>
   );
 }
