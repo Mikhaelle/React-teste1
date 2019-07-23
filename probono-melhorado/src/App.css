@@ -1,14 +1,35 @@
 .topbuttonDiv{
+
+        margin-top: 94px;
         position: fixed;
         width: 100%;
         height: 64px;
         text-align:center;
-}
+    }
 
-.setenceDiv{
+    .space_setence{
         position: fixed;
-        width: 70%;
-        height: 82px;
+        width:60%;
+        margin-top: 160px;
+        margin-left: 20%;
+        height:7cm;
+        border: 2px solid #DCDCDC;
+     }
 
+     .space_setence2{
+        position: fixed;
+        width:60%;
+        margin-top: 450px;
+        margin-left: 20%;
+        height:7cm;
+        border: 2px solid #DCDCDC;
+     }
 
-}
+     .space_setence3{
+        position: fixed;
+        width:60%;
+        margin-top: 900px;
+        margin-left: 20%;
+        height:7cm;
+        border: 2px solid #DCDCDC;
+     }

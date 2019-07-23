@@ -1,11 +1,4 @@
-.space_setence{
-    position: fixed;
-    width:60%;
-    margin-top: 160px;
-    margin-left: 20%;
-    height:7cm;
-    border: 2px solid #DCDCDC;
- }
+
  
  
  .header_space_setence{
@@ -26,10 +19,15 @@
  .container.body-container{
     padding-top: 90px;
     padding-left: 10%;
+    padding-right: 10%;
   }
 
-  .col-sm .style-container{
-
+  .col-sm{
+    border: 1px solid;
+    border-top: 0;
+    border-right: 0;
+    border-color: blueviolet;
+    
   }
  
  .split-para span { 

@@ -45,7 +45,7 @@ export class topbuttons extends React.Component{
 
     render(){
         return(
-            <div className= "topbuttonDiv">
+            <div>
                 <button onClick = {this.b1IsClick.bind(this)} className = "btn btn-primary"  style ={{background:this.state.backcolorb1}}>novo</button>
                 <button onClick = {this.b2IsClick.bind(this)} className = "btn btn-primary"  style ={{background:this.state.backcolorb2}}>histórico</button>
             </div>

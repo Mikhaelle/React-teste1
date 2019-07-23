@@ -10,8 +10,19 @@ function App() {
       <header className="navbar_toolbar">
         <Toolbar />
       </header>
+      <div className= "topbuttonDiv">
         <Topbuttons/>
+      </div>
+      <div className = "space_setence">
         <SetencaBox/>
+      </div>
+      <div className = "space_setence2">
+        <SetencaBox/>
+      </div>
+      <div className = "space_setence3">
+        <SetencaBox/>
+      </div>
+       
     </div>
  
   );

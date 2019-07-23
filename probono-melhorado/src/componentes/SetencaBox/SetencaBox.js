@@ -17,7 +17,7 @@ class List extends React.Component{
         return(
             <div className="container body-container">
                 <div className="row">
-                    <div className="col-sm style-container">
+                    <div className="col-sm">
                         <p> Nome: {this.state.nome} </p>
                     </div>
                     <div className="col-sm">
@@ -56,7 +56,7 @@ class Button extends React.Component{
 }
 
 const setencabox = props =>(
-    <div className = "space_setence">
+    <div>
         <div className = "header_space_setence">
             <p className="split-para">Setença <span>#00001</span></p>
         </div>
