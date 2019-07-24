@@ -36,8 +36,10 @@ render(){
 
     return(
       <div>
+        <div className= "topbuttonDiv">
          <button onClick = {this.b1IsClick.bind(this)} className = "btn btn-primary"  style ={{background:this.state.backcolorb1}}>novo</button>
          <button onClick = {this.b2IsClick.bind(this)} className = "btn btn-primary"  style ={{background:this.state.backcolorb2}}>histórico</button>
+         </div>
           <div className = "space_setence">
             {setence}
           </div>
@@ -58,9 +60,7 @@ function App() {
       <header className="navbar_toolbar">
         <Toolbar /> 
       </header>
-        <div className= "topbuttonDiv">
           <PageSelect/>
-        </div>
     </div>
   );
 }

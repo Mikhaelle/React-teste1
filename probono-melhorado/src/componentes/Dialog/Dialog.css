@@ -1,21 +1,36 @@
-
+.parent_space_dialog{
+    height: 100%;
+    width: 100%;
+    position: absolute; 
+    top: 0; 
+    left: 0;
+    background: gray;
+    background:rgba(128,128,128,0.7); ;
+}
 .space_dialog{
-    margin:50px;
-        margin-left: 20%;
-        position: flex;
-        width:60%;
-        height:7cm;
-        border: 2px solid #DCDCDC;
+    margin-top:20%;
+    margin-left: 20%;
+    width:60%;
+    height:7cm;
+    border: 2px solid #DCDCDC;
+    background-color: white;
+    
  }
+ 
  .header_space_dialog{
     width: 100%;
-    height: 40%;
+    height: 20%;
     background-color: blueviolet;
 
 }
 
+.h1Div{
+    padding-top: 5%;
+    text-align: center;
+}
+
 .buttonDialog{
-    margin-top: 94px;
+    padding-top: 5%;
     position: flex;
     width: 100%;
     height: 64px;

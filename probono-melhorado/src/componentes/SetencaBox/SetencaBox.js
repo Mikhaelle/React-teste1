@@ -47,8 +47,10 @@ class Button extends React.Component{
       }
       render(){
         return(
-            <div className = "buttonDiv2">
+            <div >
+                <div className = "buttonDiv2">
                 <button onClick = {(e)=>this.setState( {isOpen:true})} className = "btn btn-primary" style ={{background:'purple'}}> Informar </button>
+                </div>
                 <Dialog value = {this.state.isOpen} onClose={(e)=>this.setState({isOpen:false})}></Dialog>
             </div>
             
