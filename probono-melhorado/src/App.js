@@ -16,10 +16,10 @@ function App() {
         <div className = "space_setence">
           <SetencaBox/>
         </div>
-        <div className = "space_setence2">
+        <div className = "space_setence">
           <SetencaBox/>
         </div>
-        <div className = "space_setence3">
+        <div className = "space_setence">
           <SetencaBox/>
         </div>
     </div>
