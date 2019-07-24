@@ -6,25 +6,23 @@ import SetencaBox from './componentes/SetencaBox/SetencaBox';
 
 function App() {
   return (
-    <div className="home">
+     <div className="home">
       <header className="navbar_toolbar">
-        <Toolbar />
+        <Toolbar /> 
       </header>
-      <div className= "topbuttonDiv">
-        <Topbuttons/>
-      </div>
-      <div className = "space_setence">
-        <SetencaBox/>
-      </div>
-      <div className = "space_setence2">
-        <SetencaBox/>
-      </div>
-      <div className = "space_setence3">
-        <SetencaBox/>
-      </div>
-       
+        <div className= "topbuttonDiv">
+          <Topbuttons/>
+        </div>
+        <div className = "space_setence">
+          <SetencaBox/>
+        </div>
+        <div className = "space_setence2">
+          <SetencaBox/>
+        </div>
+        <div className = "space_setence3">
+          <SetencaBox/>
+        </div>
     </div>
- 
   );
 }
 
