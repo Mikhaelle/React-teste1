@@ -5,7 +5,6 @@ export class Dialog extends React.Component{
         super();
         this.state = {
             b1 : false,
-            b2 : false,
         }
     }
 

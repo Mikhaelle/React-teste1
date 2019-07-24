@@ -1,0 +1,59 @@
+
+.header_space_setence{
+     width: 100%;
+     height: 40%;
+     background-color: blueviolet;
+ 
+ }
+
+ .split-para  { 
+     display:block;
+     color: white;
+     font-size: 24px;
+ }
+ 
+ .container.body-container{
+    padding-top: 30px;
+    padding-left: 10%;
+    padding-right: 10%;
+  }
+
+  .col-sm{
+    border: 1px solid;
+    border-top: 0;
+    border-right: 0;
+    border-color: blueviolet;
+    
+  }
+ 
+ .split-para span { 
+     display:block;
+     float:right;
+     padding-left: 40px;
+ }
+ 
+ 
+ .split-para2  span { 
+     display:block;
+     float:right;
+     margin-left:5px;
+     margin-right: 5px;
+     text-decoration-line: underline;
+     text-decoration-color: blueviolet;
+ }
+ 
+ .buttonDiv2 {
+     margin-top: 20px;
+     width: 100%;
+     height: 64px;
+     text-align:center;
+     position: flex;
+     bottom:   0;
+ }
+ 
+ button {
+     width: 150px; height: 48px;
+     border-radius: 12px;
+     font-size: 24px;
+     color: white
+ }
