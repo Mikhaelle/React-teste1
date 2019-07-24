@@ -1,5 +1,7 @@
 import React from 'react';
 import './SetencaBox.css';
+import Dialog from '../Dialog/Dialog';
+
 
 
 class List extends React.Component{
@@ -40,17 +42,16 @@ class Button extends React.Component{
     constructor(props){
         super(props)
         this.state = {
-          value: false,
+          isOpen: false,
         };
-      }
-      changeValue(){
-        this.setState({
-            value:true,
-        });
       }
       render(){
         return(
-            <button onClick = {()=>this.changeValue()} className = "btn btn-primary" style ={{background:'purple'}}> Informar </button>
+            <div className = "buttonDiv2">
+                <button onClick = {(e)=>this.setState( {isOpen:true})} className = "btn btn-primary" style ={{background:'purple'}}> Informar </button>
+                <Dialog value = {this.state.isOpen} onClose={(e)=>this.setState({isOpen:false})}></Dialog>
+            </div>
+            
         )
       }
 }
@@ -61,7 +62,7 @@ const setencabox = props =>(
             <p className="split-para">Setença <span>#00001</span></p>
         </div>
         <div ><List/></div>
-        <div className = "buttonDiv2"><Button/></div>
+        <Button/>
     </div>
 
 
